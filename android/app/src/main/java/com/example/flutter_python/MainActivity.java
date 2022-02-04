@@ -2,18 +2,18 @@ package com.example.flutter_python;
 
 import io.flutter.embedding.android.FlutterActivity;
 
-import android.content.Context
-import android.graphics.BitmapFactory
-import android.os.Bundle
-import android.view.inputmethod.InputMethodManager
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageView
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
-import com.chaquo.python.PyException
-import com.chaquo.python.Python
-import com.chaquo.python.android.AndroidPlatform
+import android.content.Context;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
+import com.chaquo.python.PyException;
+import com.chaquo.python.Python;
+import com.chaquo.python.android.AndroidPlatform;
 
 
 
@@ -21,7 +21,7 @@ import com.chaquo.python.android.AndroidPlatform
 public class MainActivity extends FlutterActivity {
 }
 
-class MainActivity : AppCompatActivity() {
+: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
